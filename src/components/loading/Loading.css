@@ -1,0 +1,30 @@
+.loadingContainer {
+  background: black;
+  /* color: rgb(44, 44, 173); */
+  color: lawngreen;
+  font-family: Consolas, Courier, monospace;
+  font-size: 60px;
+  height: 100%;
+  position: relative;
+  top: 50%;
+  margin: -30px auto;
+  text-align: center;
+}
+
+.loadingContainer .glow {
+  color: cyan;
+  text-shadow: 0px 0px 10px cyan;
+}
+
+span {
+  display: inline-block;
+  padding: 0 10px;
+  margin-top: 50px;
+}
+
+body.loading {
+  background: black;
+}
+
+
+
