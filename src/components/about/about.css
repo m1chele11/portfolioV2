@@ -18,12 +18,14 @@
 
 }
 
-.about__me-image{
+.about__me-image {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-}
+    max-width: 60%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+  }
 
 .about__me-image:hover{
     transform: rotate(0);

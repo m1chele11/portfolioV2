@@ -32,6 +32,12 @@
     margin-bottom: 1rem;
 }
 
+.btn-secondary{
+    background-color: var(--color-back);
+}
+
+
+
 /*Media queries (medium devices)*/ 
 @media screen and (max-width: 1024px){
     .portfolio__container{

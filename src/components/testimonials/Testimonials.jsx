@@ -6,7 +6,7 @@ import AVTR3 from '../../Assets/google-logo-png-icon-free-download-SUF63j.png'
 import AVTR4 from '../../Assets/goals.jpg'
 
 // import Swiper core and required modules
-import { Pagination,   A11y } from 'swiper';
+import { Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

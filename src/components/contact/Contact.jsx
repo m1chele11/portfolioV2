@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {SiMinutemailer} from 'react-icons/si'
-import {BsInstagram} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
@@ -20,10 +20,10 @@ const Contact = () => {
           </article>
 
           <article className='contact__option'>
-            <BsInstagram className='contact__option-icon'/>
-            <h4>Instagram</h4>
+            <BsLinkedin className='contact__option-icon'/>
+            <h4>LinkedIN</h4>
             <h5>Michele Barrantes</h5>
-            <a href="https://www.instagram.com/baby.mic_/" target='_blank'>Send a message</a>
+            <a href="http://www.linkedin.com/in/michele-barrantes-455206255" target='_blank'>Send a message</a>
           </article>
 
           <article className='contact__option'>
